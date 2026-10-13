@@ -1,6 +1,7 @@
 package com.sk.main;
 
 import com.sk.service.ArithmaticOperations;
+import com.sk.upi.UPIPayment;
 
 /**
  * Hello world!
@@ -16,5 +17,9 @@ public class App {
         System.out.println("Sum is:"+sum);
         System.out.println("Difference is:"+difference);
         System.out.println("Product is:"+product);
+        
+        UPIPayment upiPayment = new UPIPayment();
+        String paymentStatus = upiPayment.doUpiPayment(1234567890L, 100.50f);
+        System.out.println(paymentStatus);
     }
 }
