@@ -18,8 +18,12 @@ public class App {
         System.out.println("Difference is:"+difference);
         System.out.println("Product is:"+product);
         
+        System.out.println("-------------------UPI Payment-------------------");
         UPIPayment upiPayment = new UPIPayment();
         String paymentStatus = upiPayment.doUpiPayment(1234567890L, 100.50f);
         System.out.println(paymentStatus);
+        
+        String paymentStatusByAccount = upiPayment.doUPIPaymentByAccountNumber(9876543210L, 200.75f);
+        System.out.println(paymentStatusByAccount);
     }
 }
