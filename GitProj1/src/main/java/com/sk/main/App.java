@@ -29,7 +29,7 @@ public class App {
         
         System.out.println("-------------------Net Banking-------------------");
         NetBankingService netBankingService = new NetBankingService();
-        String transferStatus = netBankingService.transferMoney(1234567890L, 9876543210L, 500.00);
+        String transferStatus = netBankingService.transferMoney(1234567890L, 9876543210L, 500.00,"RTGS");
         System.out.println(transferStatus);
     }
 }

@@ -2,8 +2,8 @@ package com.sk.nb;
 
 public class NetBankingService {
 	
-	public String transferMoney(Long sourceAccount, Long destinationAccount, Double amount) {
+	public String transferMoney(Long sourceAccount, Long destinationAccount, Double amount, String transferType) {
 		// Logic to transfer money from sourceAccount to destinationAccount
-		return amount+" Amount is Transfered successfully from "+sourceAccount+" to "+destinationAccount;
+		return amount+" Amount is Transfered successfully from "+sourceAccount+" to "+destinationAccount+ " using "+transferType+" transfer type";
 	}
 }
