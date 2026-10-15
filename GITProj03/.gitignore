@@ -1,0 +1,90 @@
+# ===== Maven =====
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# ===== Eclipse =====
+.metadata/
+.classpath
+.project
+.settings/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.loadpath
+.recommenders/
+
+# Eclipse Core
+.project
+
+# Eclipse JDT / external tool configs
+.externalToolBuilders/
+*.launch
+
+# Eclipse CDT / PDT / PyDev (if used)
+.cproject
+.buildpath
+.pydevproject
+
+# Eclipse Annotation Processing
+.apt_generated/
+.apt_generated_test/
+
+# Eclipse Scala IDE / Code Recommenders
+.cache-main
+.scala_dependencies
+.worksheet
+.factorypath
+
+# Eclipse WTP (web projects)
+.springBeans
+.sts4-cache/
+.server/
+RemoteSystemsTempFiles/
+
+# ===== Java =====
+*.class
+*.log
+*.ctxt
+.mtj.tmp/
+
+# Package files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# JVM crash logs
+hs_err_pid*
+replay_pid*
+
+# ===== OS files =====
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ===== Other IDEs (if teammates use them) =====
+.idea/
+*.iml
+.vscode/
+.nbproject/
+nbproject/
+
+# ===== Secrets / environment =====
+*.env
+application-local.properties
