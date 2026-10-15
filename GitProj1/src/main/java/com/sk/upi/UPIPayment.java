@@ -10,5 +10,9 @@ public class UPIPayment {
 	public String doUPIPaymentByAccountNumber(Long accountNumber, float amount) {
 		return "Payment of amount "+amount+" is done successfully for account number "+accountNumber+" using Bhart pay UPI"; 
 	}
+	
+	public String doUPIPaymentByVPA(String vpa, float amount) {
+		return "Payment of amount "+amount+" is done successfully for VPA "+vpa+" using Bhart pay UPI"; 
+	}
 
 }
